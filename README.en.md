@@ -13,6 +13,8 @@
 <p align="center">
   <a href="#start-with-notchagent"><strong>Install NotchAgent</strong></a>
   ·
+  <a href="#builder-library"><strong>Use the library</strong></a>
+  ·
   <a href="#see-them-in-action"><strong>Watch demos</strong></a>
   ·
   <a href="#complete-library"><strong>Open catalog</strong></a>
@@ -24,6 +26,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/projects-7-9B87F5?style=flat-square" alt="7 projects" />
+  <img src="https://img.shields.io/badge/builder%20resources-5-7C5CFC?style=flat-square" alt="5 builder resources" />
   <img src="https://img.shields.io/badge/focus-applied%20AI-38D6C7?style=flat-square" alt="Applied AI focus" />
   <img src="https://img.shields.io/badge/catalog%20license-MIT-F3B85A?style=flat-square" alt="MIT License" />
   <img src="https://img.shields.io/badge/catalog-public-0D1117?style=flat-square" alt="Public catalog" />
@@ -31,13 +34,14 @@
 
 <h1 align="center">RocketLabs</h1>
 
-<p align="center"><strong>Digital products, AI systems and tools you can explore now.</strong></p>
+<p align="center"><strong>Products to explore. Open-source playbooks to reuse.</strong></p>
 
 <p align="center">
   This is the central map of projects built by
   <a href="https://github.com/luisroquette">@luisroquette</a>.
   Each project lives in its own repository. Here you can understand the problem,
-  see the product in action and find the best entry point.
+  see the product in action and find the best entry point. The library packages
+  the methods, checklists and templates used to put them into the world.
 </p>
 
 ---
@@ -71,6 +75,24 @@ brew install --cask luisroquette/tap/notchagent
   <a href="https://github.com/luisroquette/notchagent/releases/tag/v1.0.1"><strong>Download v1.0.1</strong></a>
   ·
   <a href="https://github.com/luisroquette/notchagent#dados-o-que-é-real-o-que-é-estimado"><strong>Understand the data</strong></a>
+</p>
+
+## Builder library
+
+You do not need to adopt a RocketLabs product to take something useful from
+this repository. This library packages the process used to turn internal
+projects into public, safe and understandable repositories.
+
+| Reusable resource | Use it to… | Open |
+|---|---|---|
+| 🧭 **Open-source playbook** | separate product, configuration and data before publishing | [Read playbook](./docs/en/open-source-playbook.md) |
+| 🔐 **Security checklist** | review files, Git history, infrastructure and CI | [Run checklist](./docs/en/security-checklist.md) |
+| 🧱 **README template** | explain value, setup, data and limitations | [Copy template](./templates/README.en.md) |
+| 🚀 **Launch checklist** | validate product, release, distribution and post-launch work | [Prepare launch](./docs/en/launch-checklist.md) |
+| 🧩 **Project comparison** | choose the right system for each use case | [Compare projects](./docs/en/project-comparison.md) |
+
+<p align="center">
+  <a href="./docs/README.md"><strong>Open the complete library →</strong></a>
 </p>
 
 ## Choose your entry point

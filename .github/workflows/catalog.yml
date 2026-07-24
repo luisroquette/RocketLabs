@@ -17,6 +17,8 @@ jobs:
           node-version: 22
       - name: Validate catalog
         run: node scripts/validate-catalog.mjs
+      - name: Validate builder library
+        run: node scripts/validate-library.mjs
       - name: Check generated README
         run: |
           node scripts/render-readme.mjs

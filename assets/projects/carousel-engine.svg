@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Carousel Story Engine">
+  <defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#171226"/><stop offset="1" stop-color="#241329"/></linearGradient><linearGradient id="a" x2="1" y2="1"><stop stop-color="#9B87F5"/><stop offset="1" stop-color="#EA7EC4"/></linearGradient></defs>
+  <rect width="600" height="300" rx="22" fill="url(#b)"/>
+  <text x="34" y="48" fill="#9182A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">EDITORIAL AI SKILL</text>
+  <text x="34" y="87" fill="#F7F1FA" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800">Carousel Story Engine</text>
+  <text x="34" y="112" fill="#BAA9C2" font-family="Inter,Arial,sans-serif" font-size="13">research → angle → narrative → production</text>
+  <g transform="translate(116 143)">
+    <g transform="translate(0 12) rotate(-7 44 54)"><rect width="88" height="108" rx="10" fill="#282039" stroke="#514268"/><text x="15" y="30" fill="#9787AA" font-family="Inter,Arial,sans-serif" font-size="9">RAW IDEA</text><path d="M15 48h57M15 60h44M15 72h52" stroke="#574A67" stroke-width="5" stroke-linecap="round"/></g>
+    <path d="M108 65h50m-9-9 9 9-9 9" fill="none" stroke="#695579" stroke-width="2"/>
+    <g transform="translate(180)"><rect width="110" height="132" rx="12" fill="#2A2037" stroke="#9B87F5"/><circle cx="55" cy="38" r="19" fill="#3D3152"/><path d="m46 38 7 7 13-16" fill="none" stroke="#C7BDFB" stroke-width="2.5"/><text x="55" y="78" fill="#D9D2F1" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="700">EDITORIAL</text><text x="55" y="96" fill="#897A99" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9">ENGINE</text></g>
+    <path d="M310 65h50m-9-9 9 9-9 9" fill="none" stroke="#695579" stroke-width="2"/>
+    <g transform="translate(382) rotate(7 44 54)"><rect width="88" height="108" rx="10" fill="url(#a)"/><text x="14" y="31" fill="#20142A" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="800">THE STORY</text><text x="14" y="53" fill="#FFF" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800">people</text><text x="14" y="71" fill="#FFF" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800">finish.</text><rect x="14" y="86" width="40" height="5" rx="2.5" fill="#FFF" opacity=".6"/></g>
+  </g>
+</svg>

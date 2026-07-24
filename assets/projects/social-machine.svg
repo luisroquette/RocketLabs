@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Social Machine for All">
+  <defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#11172A"/><stop offset="1" stop-color="#10262C"/></linearGradient><linearGradient id="a"><stop stop-color="#9B87F5"/><stop offset="1" stop-color="#38D6C7"/></linearGradient></defs>
+  <rect width="600" height="300" rx="22" fill="url(#b)"/>
+  <text x="34" y="48" fill="#7E8AAA" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CONTENT OPERATIONS</text>
+  <text x="34" y="87" fill="#F3F5FC" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800">Social Machine</text>
+  <text x="34" y="112" fill="#AAB4CE" font-family="Inter,Arial,sans-serif" font-size="13">signal → decision → content → learning</text>
+  <g transform="translate(34 152)" font-family="Inter,Arial,sans-serif" font-size="11" text-anchor="middle">
+    <path d="M50 35H485" stroke="#35405E" stroke-width="3"/>
+    <g><circle cx="45" cy="35" r="25" fill="#25244A" stroke="#9B87F5"/><text x="45" y="39" fill="#D9D2FF">01</text><text x="45" y="79" fill="#8D98B7">DISCOVER</text></g>
+    <g><circle cx="155" cy="35" r="25" fill="#202A45" stroke="#7BA7EC"/><text x="155" y="39" fill="#C4D9FB">02</text><text x="155" y="79" fill="#8D98B7">CURATE</text></g>
+    <g><circle cx="265" cy="35" r="25" fill="#17333B" stroke="#38D6C7"/><text x="265" y="39" fill="#A4F0E8">03</text><text x="265" y="79" fill="#8D98B7">CREATE</text></g>
+    <g><circle cx="375" cy="35" r="25" fill="#333025" stroke="#F3B85A"/><text x="375" y="39" fill="#FFE0A7">04</text><text x="375" y="79" fill="#8D98B7">REVIEW</text></g>
+    <g><circle cx="485" cy="35" r="25" fill="#382338" stroke="#EA7EC4"/><text x="485" y="39" fill="#F7C4E6">05</text><text x="485" y="79" fill="#8D98B7">LEARN</text></g>
+  </g>
+  <rect x="447" y="28" width="119" height="27" rx="13.5" fill="#18352F"/><circle cx="464" cy="41.5" r="4" fill="#38D6C7"/><text x="475" y="46" fill="#8DE9DE" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">SELF-HOSTED</text>
+</svg>

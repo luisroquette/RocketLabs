@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "social-machine-for-all",
+    "name": "Social Machine for All",
+    "description": "Operação de conteúdo self-hosted, do sinal ao aprendizado.",
+    "category": "Content systems",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/social-machine-for-all",
+    "demo": null,
+    "image": "assets/projects/social-machine.svg",
+    "featured": true
+  },
+  {
+    "slug": "autoblog-template",
+    "name": "Auto-blog Template",
+    "description": "Pipeline replicável de pauta, SEO e publicação.",
+    "category": "Publishing",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/autoblog-template",
+    "demo": null,
+    "image": "assets/projects/autoblog.svg",
+    "featured": true
+  },
+  {
+    "slug": "notchagent",
+    "name": "NotchAgent",
+    "description": "Quotas e burn rate de agentes de IA no notch do Mac.",
+    "category": "Developer tools",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/notchagent",
+    "demo": null,
+    "image": "assets/projects/notchagent.svg",
+    "featured": true
+  },
+  {
+    "slug": "carousel-story-engine",
+    "name": "Carousel Story Engine",
+    "description": "Carrosséis com pesquisa, narrativa e controle editorial.",
+    "category": "AI skills",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/carousel-story-engine",
+    "demo": null,
+    "image": "assets/projects/carousel-engine.svg",
+    "featured": true
+  },
+  {
+    "slug": "swen-mcp-server",
+    "name": "SWEN.AI MCP Server",
+    "description": "Dados públicos de IA brasileira para agentes via MCP.",
+    "category": "AI infrastructure",
+    "status": "reference",
+    "repository": "https://github.com/luisroquette/swen-mcp-server",
+    "demo": null,
+    "image": null,
+    "featured": false
+  },
+  {
+    "slug": "gaussmob-nextjs",
+    "name": "GaussMob",
+    "description": "Portal para um ecossistema de mobilidade elétrica.",
+    "category": "Web products",
+    "status": "evolving",
+    "repository": "https://github.com/luisroquette/gaussmob-nextjs",
+    "demo": null,
+    "image": null,
+    "featured": false
+  },
+  {
+    "slug": "coesa-auditoria",
+    "name": "Coesa Auditoria",
+    "description": "Experiência web para auditoria de faturas de energia.",
+    "category": "Web products",
+    "status": "evolving",
+    "repository": "https://github.com/luisroquette/coesa-auditoria",
+    "demo": "https://coesa-auditoria.vercel.app",
+    "image": null,
+    "featured": false
+  }
+]

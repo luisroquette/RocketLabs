@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="#escolha-seu-ponto-de-entrada"><strong>Explorar projetos</strong></a>
+  <a href="#comece-pelo-notchagent"><strong>Instalar NotchAgent</strong></a>
   ·
   <a href="#veja-em-funcionamento"><strong>Ver demonstrações</strong></a>
   ·
@@ -41,13 +41,44 @@
 
 ---
 
+## Comece pelo NotchAgent
+
+<p align="center">
+  <a href="https://github.com/luisroquette/notchagent">
+    <img src="https://raw.githubusercontent.com/luisroquette/notchagent/master/docs/img/desktop-now.png" alt="NotchAgent mostrando quotas, ritmo de consumo e alertas de agentes de IA no macOS" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/release-v1.0.1-38D6C7?style=flat-square" alt="Release v1.0.1" />
+  <img src="https://img.shields.io/badge/instalação-Homebrew-F3B85A?style=flat-square" alt="Instalação via Homebrew" />
+  <img src="https://img.shields.io/badge/macOS-14%2B-0D1117?style=flat-square" alt="macOS 14 ou superior" />
+  <img src="https://img.shields.io/badge/arquitetura-local--first-9B87F5?style=flat-square" alt="Arquitetura local-first" />
+</p>
+
+**O medidor de combustível dos seus agentes de IA.** O NotchAgent mostra quanto
+da sua quota de Claude Code e Codex ainda resta, projeta quando ela pode acabar e
+avisa antes de você atingir o limite — direto no notch do MacBook.
+
+```bash
+brew install --cask luisroquette/tap/notchagent
+```
+
+<p align="center">
+  <a href="https://github.com/luisroquette/notchagent#install"><strong>Instalar agora →</strong></a>
+  ·
+  <a href="https://github.com/luisroquette/notchagent/releases/tag/v1.0.1"><strong>Baixar v1.0.1</strong></a>
+  ·
+  <a href="https://github.com/luisroquette/notchagent#dados-o-que-é-real-o-que-é-estimado"><strong>Entender os dados</strong></a>
+</p>
+
 ## Escolha seu ponto de entrada
 
 | Se você quer… | Comece por |
 |---|---|
+| Monitorar limites de agentes de IA direto no Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
 | Operar conteúdo de ponta a ponta, com controle humano | **[Social Machine for All](https://github.com/luisroquette/social-machine-for-all)** |
 | Transformar pautas em artigos SEO no seu próprio domínio | **[Auto-blog Template](https://github.com/luisroquette/autoblog-template)** |
-| Monitorar limites de agentes de IA direto no Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
 | Criar carrosséis com pesquisa, narrativa e QA editorial | **[Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine)** |
 | Conectar agentes a notícias e dados brasileiros de IA | **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** |
 
@@ -136,9 +167,9 @@
 <!-- PROJECTS:START -->
 | Projeto | O que resolve | Categoria | Estado | Uso |
 |---|---|---|---|---|
+| [NotchAgent](https://github.com/luisroquette/notchagent) | Quotas e burn rate de agentes de IA no notch do Mac. | Developer tools | 🟢 Ativo | Código público |
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Operação de conteúdo self-hosted, do sinal ao aprendizado. | Content systems | 🟢 Ativo | [MIT](https://github.com/luisroquette/social-machine-for-all/blob/HEAD/LICENSE) |
 | [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | Pipeline replicável de pauta, SEO e publicação. | Publishing | 🟢 Ativo | [MIT](https://github.com/luisroquette/autoblog-template/blob/HEAD/LICENSE) |
-| [NotchAgent](https://github.com/luisroquette/notchagent) | Quotas e burn rate de agentes de IA no notch do Mac. | Developer tools | 🟢 Ativo | Código público |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Carrosséis com pesquisa, narrativa e controle editorial. | AI skills | 🟢 Ativo | [MIT](https://github.com/luisroquette/carousel-story-engine/blob/HEAD/LICENSE) |
 | [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Dados públicos de IA brasileira para agentes via MCP. | AI infrastructure | 🔵 Referência | [MIT](https://github.com/luisroquette/swen-mcp-server/blob/HEAD/LICENSE) |
 | [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | Portal para um ecossistema de mobilidade elétrica. | Web products | 🟡 Em evolução | Código público |

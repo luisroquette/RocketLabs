@@ -1,5 +1,21 @@
 [
   {
+    "slug": "notchagent",
+    "name": "NotchAgent",
+    "descriptionPt": "Quotas e burn rate de agentes de IA no notch do Mac.",
+    "descriptionEn": "AI agent quotas and burn rate in the MacBook notch.",
+    "category": "Developer tools",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/notchagent",
+    "demo": null,
+    "image": "assets/projects/notchagent.svg",
+    "featured": true,
+    "flagship": true,
+    "release": "v1.0.1",
+    "install": "brew install --cask luisroquette/tap/notchagent",
+    "access": "public-code"
+  },
+  {
     "slug": "social-machine-for-all",
     "name": "Social Machine for All",
     "descriptionPt": "Operação de conteúdo self-hosted, do sinal ao aprendizado.",
@@ -24,19 +40,6 @@
     "image": "assets/projects/autoblog.svg",
     "featured": true,
     "access": "mit"
-  },
-  {
-    "slug": "notchagent",
-    "name": "NotchAgent",
-    "descriptionPt": "Quotas e burn rate de agentes de IA no notch do Mac.",
-    "descriptionEn": "AI agent quotas and burn rate in the MacBook notch.",
-    "category": "Developer tools",
-    "status": "active",
-    "repository": "https://github.com/luisroquette/notchagent",
-    "demo": null,
-    "image": "assets/projects/notchagent.svg",
-    "featured": true,
-    "access": "public-code"
   },
   {
     "slug": "carousel-story-engine",

@@ -26,7 +26,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/projects-7-9B87F5?style=flat-square" alt="7 projects" />
-  <img src="https://img.shields.io/badge/builder%20resources-5-7C5CFC?style=flat-square" alt="5 builder resources" />
+  <img src="https://img.shields.io/badge/builder%20resources-6-7C5CFC?style=flat-square" alt="6 builder resources" />
   <img src="https://img.shields.io/badge/focus-applied%20AI-38D6C7?style=flat-square" alt="Applied AI focus" />
   <img src="https://img.shields.io/badge/catalog%20license-MIT-F3B85A?style=flat-square" alt="MIT License" />
   <img src="https://img.shields.io/badge/catalog-public-0D1117?style=flat-square" alt="Public catalog" />
@@ -89,6 +89,7 @@ projects into public, safe and understandable repositories.
 | 🔐 **Security checklist** | review files, Git history, infrastructure and CI | [Run checklist](./docs/en/security-checklist.md) |
 | 🧱 **README template** | explain value, setup, data and limitations | [Copy template](./templates/README.en.md) |
 | 🚀 **Launch checklist** | validate product, release, distribution and post-launch work | [Prepare launch](./docs/en/launch-checklist.md) |
+| 📣 **Distribution playbook** | publish specific problems with ready posts, proof and metrics | [Distribute projects](./docs/en/distribution-playbook.md) |
 | 🧩 **Project comparison** | choose the right system for each use case | [Compare projects](./docs/en/project-comparison.md) |
 
 <p align="center">

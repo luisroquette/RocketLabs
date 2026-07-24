@@ -12,6 +12,7 @@ usable repository. Every resource is available in Portuguese and English.
 | Pre-publication security checklist | [Abrir](./pt-BR/security-checklist.md) | [Open](./en/security-checklist.md) |
 | Reusable README template | [Copiar](../templates/README.pt-BR.md) | [Copy](../templates/README.en.md) |
 | Launch checklist | [Abrir](./pt-BR/launch-checklist.md) | [Open](./en/launch-checklist.md) |
+| Problem-led distribution playbook | [Abrir](./pt-BR/distribution-playbook.md) | [Open](./en/distribution-playbook.md) |
 | RocketLabs project comparison | [Comparar](./pt-BR/project-comparison.md) | [Compare](./en/project-comparison.md) |
 
 ## Como usar · How to use
@@ -27,4 +28,3 @@ usable repository. Every resource is available in Portuguese and English.
 4. Treat checklists as quality gates, not as a security guarantee.
 
 Todos os materiais desta biblioteca seguem a [licença MIT](../LICENSE).
-

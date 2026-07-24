@@ -7,6 +7,7 @@ const guides = [
   "open-source-playbook.md",
   "security-checklist.md",
   "launch-checklist.md",
+  "distribution-playbook.md",
   "project-comparison.md"
 ];
 const libraryDocs = [
@@ -58,6 +59,7 @@ const readmes = {
     "./docs/pt-BR/security-checklist.md",
     "./templates/README.pt-BR.md",
     "./docs/pt-BR/launch-checklist.md",
+    "./docs/pt-BR/distribution-playbook.md",
     "./docs/pt-BR/project-comparison.md"
   ],
   "README.en.md": [
@@ -65,6 +67,7 @@ const readmes = {
     "./docs/en/security-checklist.md",
     "./templates/README.en.md",
     "./docs/en/launch-checklist.md",
+    "./docs/en/distribution-playbook.md",
     "./docs/en/project-comparison.md"
   ]
 };
@@ -98,4 +101,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log("Biblioteca válida: 5 recursos, 2 idiomas.");
+console.log(`Biblioteca válida: ${guides.length + 1} recursos, 2 idiomas.`);

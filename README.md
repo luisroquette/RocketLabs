@@ -262,6 +262,9 @@ Se algum projeto resolver um problema seu:
 3. Dê uma ⭐ para conseguir encontrá-lo depois.
 4. Se houver um problema reproduzível, abra uma issue no projeto correto.
 
+As métricas agregadas de descoberta são preservadas no
+[histórico semanal de tráfego](./metrics/README.md).
+
 <p align="center">
   <strong>Construa algo útil. Torne-o compreensível. Coloque-o no mundo.</strong>
 </p>

@@ -264,6 +264,9 @@ If a project solves a problem for you:
 3. Give it a ⭐ so you can find it later.
 4. If you find a reproducible problem, open an issue in the correct project.
 
+Aggregate discovery metrics are preserved in the
+[weekly traffic history](./metrics/README.md).
+
 <p align="center">
   <strong>Build something useful. Make it understandable. Put it into the world.</strong>
 </p>

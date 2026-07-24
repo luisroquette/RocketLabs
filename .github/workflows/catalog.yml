@@ -19,6 +19,8 @@ jobs:
         run: node scripts/validate-catalog.mjs
       - name: Validate builder library
         run: node scripts/validate-library.mjs
+      - name: Validate traffic history
+        run: node scripts/collect-traffic.mjs --validate
       - name: Check generated README
         run: |
           node scripts/render-readme.mjs

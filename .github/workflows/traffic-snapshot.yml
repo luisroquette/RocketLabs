@@ -1,0 +1,49 @@
+name: Weekly traffic snapshot
+
+on:
+  schedule:
+    - cron: "17 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-traffic-snapshot
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    env:
+      TRAFFIC_TOKEN: ${{ secrets.ROCKETLABS_TRAFFIC_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Explain missing credential
+        if: env.TRAFFIC_TOKEN == ''
+        run: |
+          echo "::notice::Configure ROCKETLABS_TRAFFIC_TOKEN to enable weekly collection."
+
+      - name: Collect aggregate traffic
+        if: env.TRAFFIC_TOKEN != ''
+        env:
+          GH_TOKEN: ${{ env.TRAFFIC_TOKEN }}
+        run: node scripts/collect-traffic.mjs
+
+      - name: Commit snapshot
+        if: env.TRAFFIC_TOKEN != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics
+          if git diff --cached --quiet; then
+            echo "No traffic changes to commit."
+            exit 0
+          fi
+          git commit -m "record weekly traffic snapshot"
+          git push

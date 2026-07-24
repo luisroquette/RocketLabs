@@ -1,30 +1,42 @@
 <p align="center">
-  <img src="./assets/rocketlabs-hero.svg" alt="RocketLabs — produtos, sistemas e ferramentas open source construídos para sair do papel" width="100%" />
+  <a href="#escolha-seu-ponto-de-entrada">
+    <img src="./assets/rocketlabs-hero.svg" alt="RocketLabs — produtos digitais, sistemas de IA e ferramentas para explorar agora" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>Português</strong>
+  ·
+  <a href="./README.en.md">English</a>
 </p>
 
 <p align="center">
   <a href="#escolha-seu-ponto-de-entrada"><strong>Explorar projetos</strong></a>
   ·
+  <a href="#veja-em-funcionamento"><strong>Ver demonstrações</strong></a>
+  ·
+  <a href="#biblioteca-completa"><strong>Abrir catálogo</strong></a>
+  ·
   <a href="#projetos-em-destaque"><strong>Ver destaques</strong></a>
   ·
-  <a href="#como-este-laboratório-funciona"><strong>Entender o laboratório</strong></a>
+  <a href="#do-problema-ao-produto"><strong>Entender o método</strong></a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/projetos-7-9B87F5?style=flat-square" alt="7 projetos" />
   <img src="https://img.shields.io/badge/foco-IA%20aplicada-38D6C7?style=flat-square" alt="Foco em IA aplicada" />
   <img src="https://img.shields.io/badge/licença-do%20catálogo-MIT-F3B85A?style=flat-square" alt="Licença MIT" />
-  <img src="https://img.shields.io/badge/construído-em%20público-0D1117?style=flat-square" alt="Construído em público" />
+  <img src="https://img.shields.io/badge/catálogo-público-0D1117?style=flat-square" alt="Catálogo público" />
 </p>
 
 <h1 align="center">RocketLabs</h1>
 
-<p align="center"><strong>Produtos, sistemas e ferramentas open source construídos para sair do papel.</strong></p>
+<p align="center"><strong>Produtos digitais, sistemas de IA e ferramentas que você pode explorar agora.</strong></p>
 
 <p align="center">
   Este é o mapa central dos projetos de <a href="https://github.com/luisroquette">@luisroquette</a>.
-  Cada projeto vive em seu próprio repositório; aqui você descobre o que ele resolve,
-  vê seu estado atual e encontra o melhor ponto de entrada.
+  Cada projeto vive em seu próprio repositório. Aqui você entende o problema,
+  vê o produto em ação e encontra o melhor ponto de entrada.
 </p>
 
 ---
@@ -38,6 +50,41 @@
 | Monitorar limites de agentes de IA direto no Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
 | Criar carrosséis com pesquisa, narrativa e QA editorial | **[Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine)** |
 | Conectar agentes a notícias e dados brasileiros de IA | **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** |
+
+## Veja em funcionamento
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/social-machine-for-all">
+        <img src="https://raw.githubusercontent.com/luisroquette/social-machine-for-all/master/assets/social-machine-demo.svg" alt="Fluxo demonstrativo do Social Machine" width="100%" />
+      </a>
+      <p align="center"><strong>Social Machine</strong><br /><sub>Do sinal à aprovação editorial.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/notchagent">
+        <img src="https://raw.githubusercontent.com/luisroquette/notchagent/master/docs/img/desktop-now.png" alt="NotchAgent exibindo quotas de agentes de IA no macOS" width="100%" />
+      </a>
+      <p align="center"><strong>NotchAgent</strong><br /><sub>Quota, ritmo e alertas sem sair do desktop.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/autoblog-template">
+        <img src="https://raw.githubusercontent.com/luisroquette/autoblog-template/main/assets/pipeline-walkthrough.gif" alt="Pipeline animado do Auto-blog Template" width="100%" />
+      </a>
+      <p align="center"><strong>Auto-blog Template</strong><br /><sub>Da pauta ao artigo publicado.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/carousel-story-engine">
+        <img src="https://raw.githubusercontent.com/luisroquette/carousel-story-engine/main/assets/workflow-demo.gif" alt="Fluxo animado do Carousel Story Engine" width="100%" />
+      </a>
+      <p align="center"><strong>Carousel Story Engine</strong><br /><sub>Da ideia bruta à narrativa pronta.</sub></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Previews dos próprios projetos. Clique em qualquer demonstração para ver requisitos, instalação e limitações.</sub></p>
 
 ## Projetos em destaque
 
@@ -84,23 +131,24 @@
   </tr>
 </table>
 
-## Todos os projetos
+## Biblioteca completa
 
 <!-- PROJECTS:START -->
-| Projeto | O que resolve | Categoria | Estado |
-|---|---|---|---|
-| [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Operação de conteúdo self-hosted, do sinal ao aprendizado. | Content systems | 🟢 Ativo |
-| [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | Pipeline replicável de pauta, SEO e publicação. | Publishing | 🟢 Ativo |
-| [NotchAgent](https://github.com/luisroquette/notchagent) | Quotas e burn rate de agentes de IA no notch do Mac. | Developer tools | 🟢 Ativo |
-| [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Carrosséis com pesquisa, narrativa e controle editorial. | AI skills | 🟢 Ativo |
-| [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Dados públicos de IA brasileira para agentes via MCP. | AI infrastructure | 🔵 Referência |
-| [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | Portal para um ecossistema de mobilidade elétrica. | Web products | 🟡 Em evolução |
-| [Coesa Auditoria](https://github.com/luisroquette/coesa-auditoria) · [demo](https://coesa-auditoria.vercel.app) | Experiência web para auditoria de faturas de energia. | Web products | 🟡 Em evolução |
+| Projeto | O que resolve | Categoria | Estado | Uso |
+|---|---|---|---|---|
+| [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Operação de conteúdo self-hosted, do sinal ao aprendizado. | Content systems | 🟢 Ativo | [MIT](https://github.com/luisroquette/social-machine-for-all/blob/HEAD/LICENSE) |
+| [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | Pipeline replicável de pauta, SEO e publicação. | Publishing | 🟢 Ativo | [MIT](https://github.com/luisroquette/autoblog-template/blob/HEAD/LICENSE) |
+| [NotchAgent](https://github.com/luisroquette/notchagent) | Quotas e burn rate de agentes de IA no notch do Mac. | Developer tools | 🟢 Ativo | Código público |
+| [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Carrosséis com pesquisa, narrativa e controle editorial. | AI skills | 🟢 Ativo | [MIT](https://github.com/luisroquette/carousel-story-engine/blob/HEAD/LICENSE) |
+| [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Dados públicos de IA brasileira para agentes via MCP. | AI infrastructure | 🔵 Referência | [MIT](https://github.com/luisroquette/swen-mcp-server/blob/HEAD/LICENSE) |
+| [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | Portal para um ecossistema de mobilidade elétrica. | Web products | 🟡 Em evolução | Código público |
+| [Coesa Auditoria](https://github.com/luisroquette/coesa-auditoria) · [demo](https://coesa-auditoria.vercel.app) | Experiência web para auditoria de faturas de energia. | Web products | 🟡 Em evolução | Código público |
 <!-- PROJECTS:END -->
 
 Os estados descrevem manutenção, não qualidade: **ativo** recebe evolução contínua;
 **em evolução** ainda está sendo lapidado; **referência** documenta uma implementação
-ou serviço existente.
+ou serviço existente. **Código público** permite leitura e estudo, mas não concede
+automaticamente permissão de reuso; sempre consulte a licença do projeto.
 
 ## Do problema ao produto
 
@@ -118,9 +166,9 @@ ou serviço existente.
 
 - **Cada projeto é independente.** Você baixa apenas o que precisa.
 - **O catálogo é a fonte de navegação.** O arquivo [`projects.json`](./projects.json) guarda a lista canônica.
-- **Sem chaves no código.** Exemplos usam placeholders; credenciais ficam fora do Git.
+- **O catálogo não depende de chaves.** Cada projeto documenta separadamente suas variáveis e integrações.
 - **Sem promessas inventadas.** Demos conceituais são identificadas e limitações ficam visíveis.
-- **Open source primeiro.** Consulte a licença de cada projeto antes de reutilizá-lo.
+- **Licença explícita.** Código público só pode ser reutilizado quando a licença permitir.
 
 ### Adicionar ou atualizar um projeto
 
@@ -131,8 +179,17 @@ node scripts/render-readme.mjs
 node scripts/validate-catalog.mjs
 ```
 
-O primeiro comando atualiza a tabela deste README. O segundo impede links duplicados,
-campos inválidos e imagens ausentes.
+O primeiro comando atualiza as tabelas em português e inglês. O segundo impede
+links duplicados, campos inválidos e imagens ausentes.
+
+## Segurança e suporte
+
+- Encontrou uma possível vulnerabilidade? Siga a política de [`SECURITY.md`](./SECURITY.md) e não publique segredos em issues.
+- Precisa entender o nível de suporte? Leia [`SUPPORT.md`](./SUPPORT.md).
+- Problemas de um produto devem ser relatados no repositório daquele produto.
+
+O RocketLabs é um catálogo gratuito mantido em melhor esforço. Não há SLA,
+garantia de compatibilidade nem suporte individual obrigatório.
 
 ## Princípios
 
@@ -149,7 +206,7 @@ Se algum projeto resolver um problema seu:
 1. Abra o repositório e veja a demonstração.
 2. Leia os requisitos e limites.
 3. Dê uma ⭐ para conseguir encontrá-lo depois.
-4. Abra uma issue com um caso real ou uma melhoria específica.
+4. Se houver um problema reproduzível, abra uma issue no projeto correto.
 
 <p align="center">
   <strong>Construa algo útil. Torne-o compreensível. Coloque-o no mundo.</strong>
@@ -161,4 +218,8 @@ Se algum projeto resolver um problema seu:
   <a href="./LICENSE">MIT</a>
   ·
   <a href="./CONTRIBUTING.md">Contribuir</a>
+  ·
+  <a href="./SECURITY.md">Segurança</a>
+  ·
+  <a href="./SUPPORT.md">Suporte</a>
 </p>

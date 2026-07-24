@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
-  <title id="title">Ciclo RocketLabs</title>
-  <desc id="desc">Observar, construir, validar, abrir e evoluir.</desc>
+  <title id="title">RocketLabs cycle</title>
+  <desc id="desc">Observe, build, validate, open and evolve.</desc>
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#9B87F5"/>
@@ -19,32 +19,32 @@
       <circle r="43" fill="#161C32" stroke="#9B87F5" stroke-width="2"/>
       <path d="M-12 0c7-11 17-11 24 0-7 11-17 11-24 0Z" fill="none" stroke="#B9ABFA" stroke-width="2"/>
       <circle r="4" fill="#B9ABFA"/>
-      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">OBSERVAR</text>
-      <text y="93" fill="#7883A3" font-size="11">problema real</text>
+      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">OBSERVE</text>
+      <text y="93" fill="#7883A3" font-size="11">real problem</text>
     </g>
     <g transform="translate(373 115)">
       <circle r="43" fill="#151D31" stroke="#7BA7EC" stroke-width="2"/>
       <path d="M-13 10h26V-7L4-15H-13Z M4-15v8h9" fill="none" stroke="#9ABDF2" stroke-width="2" stroke-linejoin="round"/>
-      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">CONSTRUIR</text>
-      <text y="93" fill="#7883A3" font-size="11">capacidade útil</text>
+      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">BUILD</text>
+      <text y="93" fill="#7883A3" font-size="11">useful capability</text>
     </g>
     <g transform="translate(600 115)">
       <circle r="43" fill="#10242C" stroke="#38D6C7" stroke-width="2"/>
       <path d="m-14 0 9 9 19-20" fill="none" stroke="#70E5D9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">VALIDAR</text>
-      <text y="93" fill="#7883A3" font-size="11">fluxo principal</text>
+      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">VALIDATE</text>
+      <text y="93" fill="#7883A3" font-size="11">primary path</text>
     </g>
     <g transform="translate(827 115)">
       <circle r="43" fill="#1E232D" stroke="#F3B85A" stroke-width="2"/>
       <path d="M-13 2h26v14h-26z M0 10V-14m-8 8 8-8 8 8" fill="none" stroke="#F7CB7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">ABRIR</text>
-      <text y="93" fill="#7883A3" font-size="11">código e contexto</text>
+      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">OPEN</text>
+      <text y="93" fill="#7883A3" font-size="11">code and context</text>
     </g>
     <g transform="translate(1055 115)">
       <circle r="43" fill="#251A2C" stroke="#EA7EC4" stroke-width="2"/>
       <path d="M12-4A14 14 0 1 1 2-14 M3-19l-1 5 5 2" fill="none" stroke="#F09ED2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">EVOLUIR</text>
-      <text y="93" fill="#7883A3" font-size="11">aprender com uso</text>
+      <text y="73" fill="#E9ECF7" font-size="14" font-weight="700">EVOLVE</text>
+      <text y="93" fill="#7883A3" font-size="11">learn from use</text>
     </g>
   </g>
 </svg>

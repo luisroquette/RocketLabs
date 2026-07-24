@@ -1,0 +1,42 @@
+name: Correção no catálogo
+description: Relate informação incorreta, link quebrado ou problema de navegação no RocketLabs.
+title: "[catalog] "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário apenas para o catálogo RocketLabs. Problemas de um produto pertencem ao repositório daquele produto.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Tipo
+      options:
+        - Informação incorreta
+        - Link quebrado
+        - Problema visual ou de acessibilidade
+        - Sugestão de navegação
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Onde está o problema?
+      placeholder: README, projects.json, nome do projeto ou URL
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: O que precisa mudar?
+      description: Explique o resultado atual e o resultado esperado.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Segurança
+      options:
+        - label: Confirmo que não incluí chaves, tokens, dados pessoais ou detalhes de vulnerabilidade.
+          required: true

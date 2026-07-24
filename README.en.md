@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="#choose-your-entry-point"><strong>Explore projects</strong></a>
+  <a href="#start-with-notchagent"><strong>Install NotchAgent</strong></a>
   ·
   <a href="#see-them-in-action"><strong>Watch demos</strong></a>
   ·
@@ -42,13 +42,44 @@
 
 ---
 
+## Start with NotchAgent
+
+<p align="center">
+  <a href="https://github.com/luisroquette/notchagent">
+    <img src="https://raw.githubusercontent.com/luisroquette/notchagent/master/docs/img/desktop-now.png" alt="NotchAgent showing AI-agent quotas, burn rate and alerts on macOS" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/release-v1.0.1-38D6C7?style=flat-square" alt="Release v1.0.1" />
+  <img src="https://img.shields.io/badge/install-Homebrew-F3B85A?style=flat-square" alt="Install with Homebrew" />
+  <img src="https://img.shields.io/badge/macOS-14%2B-0D1117?style=flat-square" alt="macOS 14 or later" />
+  <img src="https://img.shields.io/badge/architecture-local--first-9B87F5?style=flat-square" alt="Local-first architecture" />
+</p>
+
+**The fuel gauge for your AI agents.** NotchAgent shows how much Claude Code and
+Codex quota remains, projects when it may run out and warns you before you hit
+the limit — directly in the MacBook notch.
+
+```bash
+brew install --cask luisroquette/tap/notchagent
+```
+
+<p align="center">
+  <a href="https://github.com/luisroquette/notchagent#install"><strong>Install now →</strong></a>
+  ·
+  <a href="https://github.com/luisroquette/notchagent/releases/tag/v1.0.1"><strong>Download v1.0.1</strong></a>
+  ·
+  <a href="https://github.com/luisroquette/notchagent#dados-o-que-é-real-o-que-é-estimado"><strong>Understand the data</strong></a>
+</p>
+
 ## Choose your entry point
 
 | If you want to… | Start here |
 |---|---|
+| Monitor AI-agent limits directly from your Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
 | Run end-to-end content operations with human control | **[Social Machine for All](https://github.com/luisroquette/social-machine-for-all)** |
 | Turn briefs into SEO articles on your own domain | **[Auto-blog Template](https://github.com/luisroquette/autoblog-template)** |
-| Monitor AI-agent limits directly from your Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
 | Build evidence-led carousels with editorial QA | **[Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine)** |
 | Connect agents to Brazilian AI news and data | **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** |
 
@@ -137,9 +168,9 @@
 <!-- PROJECTS:START -->
 | Project | What it solves | Category | Status | Use |
 |---|---|---|---|---|
+| [NotchAgent](https://github.com/luisroquette/notchagent) | AI agent quotas and burn rate in the MacBook notch. | Developer tools | 🟢 Active | Public code |
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Self-hosted content operations, from signal to learning. | Content systems | 🟢 Active | [MIT](https://github.com/luisroquette/social-machine-for-all/blob/HEAD/LICENSE) |
 | [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | A repeatable brief-to-SEO-to-publishing pipeline. | Publishing | 🟢 Active | [MIT](https://github.com/luisroquette/autoblog-template/blob/HEAD/LICENSE) |
-| [NotchAgent](https://github.com/luisroquette/notchagent) | AI agent quotas and burn rate in the MacBook notch. | Developer tools | 🟢 Active | Public code |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Research-led carousels with narrative and editorial QA. | AI skills | 🟢 Active | [MIT](https://github.com/luisroquette/carousel-story-engine/blob/HEAD/LICENSE) |
 | [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Public Brazilian AI data for agents through MCP. | AI infrastructure | 🔵 Reference | [MIT](https://github.com/luisroquette/swen-mcp-server/blob/HEAD/LICENSE) |
 | [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | A portal for an electric-mobility ecosystem. | Web products | 🟡 Evolving | Public code |

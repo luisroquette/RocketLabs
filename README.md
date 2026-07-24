@@ -13,6 +13,8 @@
 <p align="center">
   <a href="#comece-pelo-notchagent"><strong>Instalar NotchAgent</strong></a>
   ·
+  <a href="#biblioteca-para-builders"><strong>Usar biblioteca</strong></a>
+  ·
   <a href="#veja-em-funcionamento"><strong>Ver demonstrações</strong></a>
   ·
   <a href="#biblioteca-completa"><strong>Abrir catálogo</strong></a>
@@ -24,6 +26,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/projetos-7-9B87F5?style=flat-square" alt="7 projetos" />
+  <img src="https://img.shields.io/badge/recursos%20para%20builders-5-7C5CFC?style=flat-square" alt="5 recursos para builders" />
   <img src="https://img.shields.io/badge/foco-IA%20aplicada-38D6C7?style=flat-square" alt="Foco em IA aplicada" />
   <img src="https://img.shields.io/badge/licença-do%20catálogo-MIT-F3B85A?style=flat-square" alt="Licença MIT" />
   <img src="https://img.shields.io/badge/catálogo-público-0D1117?style=flat-square" alt="Catálogo público" />
@@ -31,12 +34,13 @@
 
 <h1 align="center">RocketLabs</h1>
 
-<p align="center"><strong>Produtos digitais, sistemas de IA e ferramentas que você pode explorar agora.</strong></p>
+<p align="center"><strong>Produtos para explorar. Playbooks open source para reutilizar.</strong></p>
 
 <p align="center">
   Este é o mapa central dos projetos de <a href="https://github.com/luisroquette">@luisroquette</a>.
   Cada projeto vive em seu próprio repositório. Aqui você entende o problema,
-  vê o produto em ação e encontra o melhor ponto de entrada.
+  vê o produto em ação e encontra o melhor ponto de entrada. A biblioteca reúne
+  o método, os checklists e os templates usados para colocá-los no mundo.
 </p>
 
 ---
@@ -70,6 +74,24 @@ brew install --cask luisroquette/tap/notchagent
   <a href="https://github.com/luisroquette/notchagent/releases/tag/v1.0.1"><strong>Baixar v1.0.1</strong></a>
   ·
   <a href="https://github.com/luisroquette/notchagent#dados-o-que-é-real-o-que-é-estimado"><strong>Entender os dados</strong></a>
+</p>
+
+## Biblioteca para builders
+
+Você não precisa usar um produto RocketLabs para levar algo útil daqui. Esta
+biblioteca reúne o processo usado para transformar projetos internos em
+repositórios públicos, seguros e compreensíveis.
+
+| Recurso reutilizável | Use para… | Abrir |
+|---|---|---|
+| 🧭 **Playbook open source** | separar produto, configuração e dados antes de publicar | [Ler playbook](./docs/pt-BR/open-source-playbook.md) |
+| 🔐 **Checklist de segurança** | revisar arquivos, histórico Git, infraestrutura e CI | [Executar checklist](./docs/pt-BR/security-checklist.md) |
+| 🧱 **Template de README** | apresentar valor, instalação, dados e limitações | [Copiar template](./templates/README.pt-BR.md) |
+| 🚀 **Checklist de lançamento** | validar produto, release, distribuição e pós-lançamento | [Preparar lançamento](./docs/pt-BR/launch-checklist.md) |
+| 🧩 **Comparativo dos sistemas** | escolher o projeto certo para cada caso de uso | [Comparar projetos](./docs/pt-BR/project-comparison.md) |
+
+<p align="center">
+  <a href="./docs/README.md"><strong>Abrir a biblioteca completa →</strong></a>
 </p>
 
 ## Escolha seu ponto de entrada

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problema em um projeto
+    url: https://github.com/luisroquette/RocketLabs/blob/main/SUPPORT.md
+    about: Encontre o repositório correto antes de relatar um erro.
+  - name: Relato de segurança
+    url: https://github.com/luisroquette/RocketLabs/security/advisories/new
+    about: Envie vulnerabilidades e informações sensíveis em privado.

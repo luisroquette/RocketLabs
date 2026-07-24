@@ -5,7 +5,18 @@ import path from "node:path";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const projects = JSON.parse(await readFile(path.join(root, "projects.json"), "utf8"));
 const allowedStatuses = new Set(["active", "evolving", "reference"]);
-const required = ["slug", "name", "description", "category", "status", "repository", "featured"];
+const allowedAccess = new Set(["mit", "public-code"]);
+const required = [
+  "slug",
+  "name",
+  "descriptionPt",
+  "descriptionEn",
+  "category",
+  "status",
+  "repository",
+  "featured",
+  "access"
+];
 const seenSlugs = new Set();
 const seenRepositories = new Set();
 const errors = [];
@@ -27,6 +38,14 @@ for (const [index, project] of projects.entries()) {
   seenRepositories.add(project.repository);
 
   if (!allowedStatuses.has(project.status)) errors.push(`status inválido em ${project.slug}`);
+  if (!allowedAccess.has(project.access)) errors.push(`acesso inválido em ${project.slug}`);
+  if (typeof project.featured !== "boolean") errors.push(`featured precisa ser booleano em ${project.slug}`);
+  if (project.featured && !project.image) errors.push(`projeto em destaque sem imagem: ${project.slug}`);
+  for (const field of ["descriptionPt", "descriptionEn", "category"]) {
+    if (typeof project[field] === "string" && /[|\r\n]/.test(project[field])) {
+      errors.push(`${field} contém caractere incompatível com tabela em ${project.slug}`);
+    }
+  }
   if (!/^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(project.repository)) {
     errors.push(`URL de repositório inválida em ${project.slug}`);
   }

@@ -20,4 +20,4 @@ jobs:
       - name: Check generated README
         run: |
           node scripts/render-readme.mjs
-          git diff --exit-code README.md
+          git diff --exit-code README.md README.en.md

@@ -2,78 +2,92 @@
   {
     "slug": "social-machine-for-all",
     "name": "Social Machine for All",
-    "description": "Operação de conteúdo self-hosted, do sinal ao aprendizado.",
+    "descriptionPt": "Operação de conteúdo self-hosted, do sinal ao aprendizado.",
+    "descriptionEn": "Self-hosted content operations, from signal to learning.",
     "category": "Content systems",
     "status": "active",
     "repository": "https://github.com/luisroquette/social-machine-for-all",
     "demo": null,
     "image": "assets/projects/social-machine.svg",
-    "featured": true
+    "featured": true,
+    "access": "mit"
   },
   {
     "slug": "autoblog-template",
     "name": "Auto-blog Template",
-    "description": "Pipeline replicável de pauta, SEO e publicação.",
+    "descriptionPt": "Pipeline replicável de pauta, SEO e publicação.",
+    "descriptionEn": "A repeatable brief-to-SEO-to-publishing pipeline.",
     "category": "Publishing",
     "status": "active",
     "repository": "https://github.com/luisroquette/autoblog-template",
     "demo": null,
     "image": "assets/projects/autoblog.svg",
-    "featured": true
+    "featured": true,
+    "access": "mit"
   },
   {
     "slug": "notchagent",
     "name": "NotchAgent",
-    "description": "Quotas e burn rate de agentes de IA no notch do Mac.",
+    "descriptionPt": "Quotas e burn rate de agentes de IA no notch do Mac.",
+    "descriptionEn": "AI agent quotas and burn rate in the MacBook notch.",
     "category": "Developer tools",
     "status": "active",
     "repository": "https://github.com/luisroquette/notchagent",
     "demo": null,
     "image": "assets/projects/notchagent.svg",
-    "featured": true
+    "featured": true,
+    "access": "public-code"
   },
   {
     "slug": "carousel-story-engine",
     "name": "Carousel Story Engine",
-    "description": "Carrosséis com pesquisa, narrativa e controle editorial.",
+    "descriptionPt": "Carrosséis com pesquisa, narrativa e controle editorial.",
+    "descriptionEn": "Research-led carousels with narrative and editorial QA.",
     "category": "AI skills",
     "status": "active",
     "repository": "https://github.com/luisroquette/carousel-story-engine",
     "demo": null,
     "image": "assets/projects/carousel-engine.svg",
-    "featured": true
+    "featured": true,
+    "access": "mit"
   },
   {
     "slug": "swen-mcp-server",
     "name": "SWEN.AI MCP Server",
-    "description": "Dados públicos de IA brasileira para agentes via MCP.",
+    "descriptionPt": "Dados públicos de IA brasileira para agentes via MCP.",
+    "descriptionEn": "Public Brazilian AI data for agents through MCP.",
     "category": "AI infrastructure",
     "status": "reference",
     "repository": "https://github.com/luisroquette/swen-mcp-server",
     "demo": null,
     "image": null,
-    "featured": false
+    "featured": false,
+    "access": "mit"
   },
   {
     "slug": "gaussmob-nextjs",
     "name": "GaussMob",
-    "description": "Portal para um ecossistema de mobilidade elétrica.",
+    "descriptionPt": "Portal para um ecossistema de mobilidade elétrica.",
+    "descriptionEn": "A portal for an electric-mobility ecosystem.",
     "category": "Web products",
     "status": "evolving",
     "repository": "https://github.com/luisroquette/gaussmob-nextjs",
     "demo": null,
     "image": null,
-    "featured": false
+    "featured": false,
+    "access": "public-code"
   },
   {
     "slug": "coesa-auditoria",
     "name": "Coesa Auditoria",
-    "description": "Experiência web para auditoria de faturas de energia.",
+    "descriptionPt": "Experiência web para auditoria de faturas de energia.",
+    "descriptionEn": "A web experience for energy-bill auditing.",
     "category": "Web products",
     "status": "evolving",
     "repository": "https://github.com/luisroquette/coesa-auditoria",
     "demo": "https://coesa-auditoria.vercel.app",
     "image": null,
-    "featured": false
+    "featured": false,
+    "access": "public-code"
   }
 ]

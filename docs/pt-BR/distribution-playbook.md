@@ -155,6 +155,9 @@ Use **GitHub Insights → Traffic** para visitantes e clones. Use os downloads d
 release quando o projeto tiver artefatos. Stars ajudam na descoberta, mas visitas,
 clones e downloads mostram intenção mais concreta.
 
+O [histórico público de tráfego](../../metrics/README.md) preserva snapshots
+semanais, referrers e a conversão aproximada antes da janela do GitHub expirar.
+
 ## Checklist antes de publicar
 
 - [ ] O primeiro parágrafo nomeia um problema, não o portfólio.

@@ -151,6 +151,9 @@ Use **GitHub Insights → Traffic** for visitors and clones. Use release downloa
 counts when the project has assets. Stars help discovery, while visits, clones
 and downloads indicate more concrete intent.
 
+The [public traffic history](../../metrics/README.md) preserves weekly snapshots,
+referrers and approximate conversion before GitHub's window expires.
+
 ## Pre-publish checklist
 
 - [ ] The opening names a problem, not the portfolio.

@@ -1,0 +1,25 @@
+{
+  "owner": "luisroquette",
+  "repositories": [
+    {
+      "name": "RocketLabs",
+      "label": "RocketLabs"
+    },
+    {
+      "name": "notchagent",
+      "label": "NotchAgent"
+    },
+    {
+      "name": "social-machine-for-all",
+      "label": "Social Machine"
+    },
+    {
+      "name": "autoblog-template",
+      "label": "Auto-blog"
+    },
+    {
+      "name": "carousel-story-engine",
+      "label": "Carousel Engine"
+    }
+  ]
+}

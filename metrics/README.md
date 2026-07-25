@@ -9,7 +9,7 @@ repository data.
 <!-- TRAFFIC:START -->
 ## Latest snapshot
 
-Collected **2026-07-24T23:58:03.695Z**. Traffic totals cover GitHub's rolling
+Collected **2026-07-25T00:10:57.808Z**. Traffic totals cover GitHub's rolling
 14-day window.
 
 **Most accessed project:** NotchAgent with 10
@@ -18,13 +18,14 @@ unique visitors.
 | Project | Views | Unique visitors | Clones | Unique cloners | Top referrer | Stars | Approx. conversion |
 |---|---:|---:|---:|---:|---|---:|---:|
 | [RocketLabs](https://github.com/luisroquette/RocketLabs) | 0 | 0 | 0 | 0 | — | 0 | — |
-| [NotchAgent](https://github.com/luisroquette/notchagent) | 17 | 10 | 110 | 67 | github.com (3 unique) | 1 | — |
+| [NotchAgent](https://github.com/luisroquette/notchagent) | 17 | 10 | 110 | 67 | github.com (3 unique) | 1 | 0.0% |
 | [Social Machine](https://github.com/luisroquette/social-machine-for-all) | 0 | 0 | 0 | 0 | — | 0 | — |
 | [Auto-blog](https://github.com/luisroquette/autoblog-template) | 0 | 0 | 2 | 2 | — | 0 | — |
-| [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) | 3 | 2 | 30 | 20 | — | 0 | — |
+| [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) | 3 | 2 | 30 | 20 | — | 0 | 0.0% |
 
 ### Snapshot history
 
+- [2026-07-25](./snapshots/2026-07-25.json)
 - [2026-07-24](./snapshots/2026-07-24.json)
 <!-- TRAFFIC:END -->
 

@@ -9,22 +9,23 @@ repository data.
 <!-- TRAFFIC:START -->
 ## Latest snapshot
 
-Collected **2026-07-27T11:40:55.207Z**. Traffic totals cover GitHub's rolling
+Collected **2026-08-03T11:44:45.541Z**. Traffic totals cover GitHub's rolling
 14-day window.
 
-**Most accessed project:** NotchAgent with 12
+**Most accessed project:** NotchAgent with 9
 unique visitors.
 
 | Project | Views | Unique visitors | Clones | Unique cloners | Top referrer | Stars | Approx. conversion |
 |---|---:|---:|---:|---:|---|---:|---:|
-| [RocketLabs](https://github.com/luisroquette/RocketLabs) | 10 | 2 | 124 | 62 | github.com (2 unique) | 0 | 0.0% |
-| [NotchAgent](https://github.com/luisroquette/notchagent) | 21 | 12 | 133 | 80 | github.com (4 unique) | 1 | 0.0% |
-| [Social Machine](https://github.com/luisroquette/social-machine-for-all) | 2 | 2 | 103 | 54 | github.com (1 unique) | 0 | 0.0% |
-| [Auto-blog](https://github.com/luisroquette/autoblog-template) | 4 | 2 | 99 | 57 | github.com (1 unique) | 0 | 0.0% |
-| [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) | 4 | 3 | 69 | 40 | github.com (1 unique) | 0 | 0.0% |
+| [RocketLabs](https://github.com/luisroquette/RocketLabs) | 12 | 2 | 143 | 70 | github.com (2 unique) | 0 | 0.0% |
+| [NotchAgent](https://github.com/luisroquette/notchagent) | 20 | 9 | 145 | 67 | github.com (3 unique) | 1 | 0.0% |
+| [Social Machine](https://github.com/luisroquette/social-machine-for-all) | 3 | 2 | 129 | 70 | github.com (2 unique) | 0 | 0.0% |
+| [Auto-blog](https://github.com/luisroquette/autoblog-template) | 5 | 2 | 106 | 62 | github.com (2 unique) | 0 | 0.0% |
+| [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) | 5 | 2 | 43 | 28 | github.com (2 unique) | 0 | 0.0% |
 
 ### Snapshot history
 
+- [2026-08-03](./snapshots/2026-08-03.json)
 - [2026-07-27](./snapshots/2026-07-27.json)
 - [2026-07-25](./snapshots/2026-07-25.json)
 - [2026-07-24](./snapshots/2026-07-24.json)

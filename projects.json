@@ -55,6 +55,21 @@
     "access": "mit"
   },
   {
+    "slug": "motor-empiricus",
+    "name": "Motor Empiricus",
+    "descriptionPt": "Nutrição de leads com aulas, cartas, repiques e validação de claims.",
+    "descriptionEn": "Lead nurture through lessons, letters, echoes and deterministic claim checks.",
+    "category": "Lifecycle marketing",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/motor-empiricus",
+    "demo": "https://github.com/luisroquette/motor-empiricus#what-it-produces",
+    "image": "assets/projects/motor-empiricus.svg",
+    "featured": true,
+    "release": "v1.0.0",
+    "install": "git clone https://github.com/luisroquette/motor-empiricus.git",
+    "access": "mit"
+  },
+  {
     "slug": "swen-mcp-server",
     "name": "SWEN.AI MCP Server",
     "descriptionPt": "Dados públicos de IA brasileira para agentes via MCP.",

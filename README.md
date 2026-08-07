@@ -183,6 +183,17 @@ repositórios públicos, seguros e compreensíveis.
       <a href="https://github.com/luisroquette/carousel-story-engine"><strong>Usar a skill →</strong></a>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/luisroquette/motor-empiricus">
+        <img src="./assets/projects/motor-empiricus.svg" alt="Motor Empiricus" width="100%" />
+      </a>
+      <h3>Motor Empiricus</h3>
+      <p>Um sistema portátil de nutrição que organiza aulas, cartas e repiques em uma cadência de conversão com claims verificáveis, templates instaláveis e validação determinística.</p>
+      <p><strong>AI skill · Lifecycle email · Compliance</strong></p>
+      <a href="https://github.com/luisroquette/motor-empiricus#quick-start"><strong>Instalar o motor →</strong></a>
+    </td>
+  </tr>
 </table>
 
 ## Biblioteca completa
@@ -194,6 +205,7 @@ repositórios públicos, seguros e compreensíveis.
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Operação de conteúdo self-hosted, do sinal ao aprendizado. | Content systems | 🟢 Ativo | [MIT](https://github.com/luisroquette/social-machine-for-all/blob/HEAD/LICENSE) |
 | [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | Pipeline replicável de pauta, SEO e publicação. | Publishing | 🟢 Ativo | [MIT](https://github.com/luisroquette/autoblog-template/blob/HEAD/LICENSE) |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Carrosséis com pesquisa, narrativa e controle editorial. | AI skills | 🟢 Ativo | [MIT](https://github.com/luisroquette/carousel-story-engine/blob/HEAD/LICENSE) |
+| [Motor Empiricus](https://github.com/luisroquette/motor-empiricus) · [demo](https://github.com/luisroquette/motor-empiricus#what-it-produces) | Nutrição de leads com aulas, cartas, repiques e validação de claims. | Lifecycle marketing | 🟢 Ativo | [MIT](https://github.com/luisroquette/motor-empiricus/blob/HEAD/LICENSE) |
 | [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Dados públicos de IA brasileira para agentes via MCP. | AI infrastructure | 🔵 Referência | [MIT](https://github.com/luisroquette/swen-mcp-server/blob/HEAD/LICENSE) |
 | [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | Portal para um ecossistema de mobilidade elétrica. | Web products | 🟡 Em evolução | Código público |
 | [Coesa Auditoria](https://github.com/luisroquette/coesa-auditoria) · [demo](https://coesa-auditoria.vercel.app) | Experiência web para auditoria de faturas de energia. | Web products | 🟡 Em evolução | Código público |

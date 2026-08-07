@@ -189,6 +189,11 @@ repositórios públicos, seguros e compreensíveis.
         <img src="./assets/projects/motor-empiricus.svg" alt="Motor Empiricus" width="100%" />
       </a>
       <h3>Motor Empiricus</h3>
+      <p align="center">
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-weekly-digest.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-weekly-digest.png" alt="Digest semanal real" width="31%" /></a>
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-editorial-lesson.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-editorial-lesson.png" alt="Aula editorial real" width="31%" /></a>
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-campaign-letter.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-campaign-letter.png" alt="Carta de campanha real" width="31%" /></a>
+      </p>
       <p>Um sistema portátil de nutrição que organiza aulas, cartas e repiques em uma cadência de conversão com claims verificáveis, templates instaláveis e validação determinística.</p>
       <p><strong>AI skill · Lifecycle email · Compliance</strong></p>
       <a href="https://github.com/luisroquette/motor-empiricus#quick-start"><strong>Instalar o motor →</strong></a>

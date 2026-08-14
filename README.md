@@ -100,6 +100,7 @@ repositórios públicos, seguros e compreensíveis.
 | Se você quer… | Comece por |
 |---|---|
 | Monitorar limites de agentes de IA direto no Mac | **[NotchAgent](https://github.com/luisroquette/notchagent)** |
+| Evitar travamentos quando vários builds pesados disputam memória no Mac | **[MemoryGuard](https://luisroquette.github.io/memoryguard/)** |
 | Operar conteúdo de ponta a ponta, com controle humano | **[Social Machine for All](https://github.com/luisroquette/social-machine-for-all)** |
 | Transformar pautas em artigos SEO no seu próprio domínio | **[Auto-blog Template](https://github.com/luisroquette/autoblog-template)** |
 | Criar carrosséis com pesquisa, narrativa e QA editorial | **[Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine)** |
@@ -143,6 +144,17 @@ repositórios públicos, seguros e compreensíveis.
 ## Projetos em destaque
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://luisroquette.github.io/memoryguard/">
+        <img src="./assets/projects/memoryguard.svg" alt="MemoryGuard" width="100%" />
+      </a>
+      <h3>MemoryGuard</h3>
+      <p>Proteção local para developers que executam vários builds pesados no Mac. Detecta pressão real, pausa apenas o build elegível mais novo e retoma sozinho — sem apagar arquivos, fechar apps ou enviar telemetria.</p>
+      <p><strong>Swift 6 · SwiftUI · macOS · MIT</strong></p>
+      <a href="https://luisroquette.github.io/memoryguard/"><strong>Ver produto e baixar grátis →</strong></a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/social-machine-for-all">
@@ -207,6 +219,7 @@ repositórios públicos, seguros e compreensíveis.
 | Projeto | O que resolve | Categoria | Estado | Uso |
 |---|---|---|---|---|
 | [NotchAgent](https://github.com/luisroquette/notchagent) | Quotas e burn rate de agentes de IA no notch do Mac. | Developer tools | 🟢 Ativo | Código público |
+| [MemoryGuard](https://github.com/luisroquette/memoryguard) · [demo](https://luisroquette.github.io/memoryguard/) | Proteção local de memória para builds pesados concorrentes no Mac. | Developer tools | 🟢 Ativo | [MIT](https://github.com/luisroquette/memoryguard/blob/HEAD/LICENSE) |
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | Operação de conteúdo self-hosted, do sinal ao aprendizado. | Content systems | 🟢 Ativo | [MIT](https://github.com/luisroquette/social-machine-for-all/blob/HEAD/LICENSE) |
 | [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | Pipeline replicável de pauta, SEO e publicação. | Publishing | 🟢 Ativo | [MIT](https://github.com/luisroquette/autoblog-template/blob/HEAD/LICENSE) |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | Carrosséis com pesquisa, narrativa e controle editorial. | AI skills | 🟢 Ativo | [MIT](https://github.com/luisroquette/carousel-story-engine/blob/HEAD/LICENSE) |

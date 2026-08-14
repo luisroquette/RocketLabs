@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MemoryGuard</title>
+  <desc id="desc">Local memory-pressure protection for concurrent heavy Mac builds</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#06120e"/>
+      <stop offset="1" stop-color="#0b2a1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="30%" r="70%">
+      <stop stop-color="#31d77b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#31d77b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="34" fill="url(#glow)"/>
+  <path d="M0 520C240 420 430 620 690 470s365-74 510-130" fill="none" stroke="#31d77b" stroke-opacity=".12"/>
+  <circle cx="1000" cy="80" r="280" fill="none" stroke="#31d77b" stroke-opacity=".13"/>
+  <circle cx="1000" cy="80" r="205" fill="none" stroke="#31d77b" stroke-opacity=".08"/>
+
+  <g transform="translate(92 82)" filter="url(#shadow)">
+    <rect width="122" height="122" rx="28" fill="#063e31" stroke="#47e493" stroke-opacity=".4"/>
+    <path d="M61 19 99 34v29c0 23-15 43-38 52-23-9-38-29-38-52V34l38-15Z" fill="#effff5"/>
+    <rect x="42" y="48" width="38" height="32" rx="7" fill="#0b6b4c"/>
+    <g fill="#43e28c"><rect x="49" y="55" width="7" height="7" rx="1"/><rect x="60" y="55" width="7" height="7" rx="1"/><rect x="71" y="55" width="7" height="7" rx="1"/><rect x="49" y="66" width="7" height="7" rx="1"/><rect x="60" y="66" width="7" height="7" rx="1"/><rect x="71" y="66" width="7" height="7" rx="1"/></g>
+  </g>
+
+  <text x="92" y="282" fill="#8cf7b9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="600" letter-spacing="3">FREE · LOCAL-FIRST · NATIVE SWIFT</text>
+  <text x="92" y="360" fill="#f4faf6" font-family="system-ui, -apple-system, sans-serif" font-size="74" font-weight="700" letter-spacing="-4">MemoryGuard</text>
+  <text x="92" y="419" fill="#b4c2ba" font-family="system-ui, -apple-system, sans-serif" font-size="28">Heavy Mac builds, safely serialized under real pressure.</text>
+  <g transform="translate(92 485)">
+    <rect width="152" height="48" rx="24" fill="#31d77b"/>
+    <text x="76" y="31" text-anchor="middle" fill="#06120e" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700">DOWNLOAD FREE</text>
+    <text x="179" y="31" fill="#91a198" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">macOS 14+ · MIT</text>
+  </g>
+
+  <g transform="translate(816 206)" filter="url(#shadow)">
+    <rect width="286" height="250" rx="24" fill="#f5f7f6"/>
+    <circle cx="36" cy="28" r="7" fill="#ff5f57"/><circle cx="58" cy="28" r="7" fill="#febc2e"/><circle cx="80" cy="28" r="7" fill="#28c840"/>
+    <rect x="24" y="62" width="238" height="64" rx="14" fill="#edf1ef"/>
+    <rect x="40" y="78" width="32" height="32" rx="9" fill="#d8f4e1"/>
+    <path d="M56 84 66 88v8c0 6-4 11-10 14-6-3-10-8-10-14v-8l10-4Z" fill="#31c66e"/>
+    <text x="86" y="89" fill="#6b7570" font-family="system-ui, sans-serif" font-size="12">KERNEL PRESSURE</text>
+    <text x="86" y="111" fill="#101714" font-family="system-ui, sans-serif" font-size="19" font-weight="700">Healthy</text>
+    <rect x="24" y="142" width="112" height="82" rx="14" fill="#edf1ef"/>
+    <rect x="150" y="142" width="112" height="82" rx="14" fill="#edf1ef"/>
+    <text x="40" y="174" fill="#101714" font-family="system-ui, sans-serif" font-size="25" font-weight="700">56%</text>
+    <text x="40" y="198" fill="#7d8882" font-family="system-ui, sans-serif" font-size="11">RAM AVAILABLE</text>
+    <text x="166" y="174" fill="#101714" font-family="system-ui, sans-serif" font-size="25" font-weight="700">0</text>
+    <text x="166" y="198" fill="#7d8882" font-family="system-ui, sans-serif" font-size="11">PAUSED BUILDS</text>
+  </g>
+</svg>

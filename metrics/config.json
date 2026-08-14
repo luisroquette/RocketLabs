@@ -10,6 +10,10 @@
       "label": "NotchAgent"
     },
     {
+      "name": "memoryguard",
+      "label": "MemoryGuard"
+    },
+    {
       "name": "social-machine-for-all",
       "label": "Social Machine"
     },

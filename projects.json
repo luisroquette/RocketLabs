@@ -16,6 +16,21 @@
     "access": "public-code"
   },
   {
+    "slug": "memoryguard",
+    "name": "MemoryGuard",
+    "descriptionPt": "Proteção local de memória para builds pesados concorrentes no Mac.",
+    "descriptionEn": "Local memory-pressure protection for concurrent heavy Mac builds.",
+    "category": "Developer tools",
+    "status": "active",
+    "repository": "https://github.com/luisroquette/memoryguard",
+    "demo": "https://luisroquette.github.io/memoryguard/",
+    "image": "assets/projects/memoryguard.svg",
+    "featured": true,
+    "release": "v1.3.0",
+    "install": "Download from https://github.com/luisroquette/memoryguard/releases/latest",
+    "access": "mit"
+  },
+  {
     "slug": "social-machine-for-all",
     "name": "Social Machine for All",
     "descriptionPt": "Operação de conteúdo self-hosted, do sinal ao aprendizado.",

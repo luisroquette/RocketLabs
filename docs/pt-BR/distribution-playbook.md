@@ -20,7 +20,7 @@ pessoa pensar: “é exatamente o problema que estou tentando resolver”.
 |---|---|---|---|
 | NotchAgent | Seu agente vai acabar a quota antes de terminar? | [`panel-burn.png`](https://github.com/luisroquette/notchagent/blob/master/docs/img/panel-burn.png) | [NotchAgent](https://github.com/luisroquette/notchagent) |
 | Social Machine | Conteúdo não precisa viver entre planilhas e prompts. | [`social-machine-demo.mp4`](https://github.com/luisroquette/social-machine-for-all/blob/master/assets/social-machine-demo.mp4) | [Social Machine](https://github.com/luisroquette/social-machine-for-all) |
-| Auto-blog | Como publicar SEO sem entregar seu conteúdo a uma plataforma. | [`pipeline-walkthrough.gif`](https://github.com/luisroquette/autoblog-template/blob/main/assets/pipeline-walkthrough.gif) | [Auto-blog](https://github.com/luisroquette/autoblog-template) |
+| My_Blog_Makes_Neil_Proud | Como publicar SEO sem entregar seu conteúdo a uma plataforma. | [`pipeline-walkthrough.gif`](https://github.com/luisroquette/autoblog-template/blob/main/assets/pipeline-walkthrough.gif) | [My_Blog_Makes_Neil_Proud](https://github.com/luisroquette/autoblog-template) |
 | Carousel Story Engine | Por que carrosséis de IA parecem todos iguais? | [`before-after.png`](https://github.com/luisroquette/carousel-story-engine/blob/main/assets/before-after.png) | [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) |
 
 ## 1. NotchAgent
@@ -76,13 +76,13 @@ percentual oficial, tokens locais e projeção.
 **Próxima publicação:** acompanhar uma pauta do sinal à aprovação usando o vídeo
 de demonstração.
 
-## 3. Auto-blog Template
+## 3. My_Blog_Makes_Neil_Proud
 
 **Publicação principal**
 
 > Como publicar SEO sem entregar seu conteúdo a uma plataforma?
 >
-> O Auto-blog Template mantém o blog no seu Next.js e os dados no seu Supabase.
+> O My_Blog_Makes_Neil_Proud mantém o blog no seu Next.js e os dados no seu Supabase.
 > Marca, audiência, tom, palavras-chave, links internos e CTA ficam reunidos num
 > perfil editável.
 >

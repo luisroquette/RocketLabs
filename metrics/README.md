@@ -20,7 +20,7 @@ unique visitors.
 | [RocketLabs](https://github.com/luisroquette/RocketLabs) | 6 | 2 | 63 | 28 | github.com (2 unique) | 0 | 0.0% |
 | [NotchAgent](https://github.com/luisroquette/notchagent) | 28 | 13 | 128 | 55 | github.com (3 unique) | 1 | 0.0% |
 | [Social Machine](https://github.com/luisroquette/social-machine-for-all) | 7 | 2 | 29 | 20 | github.com (2 unique) | 0 | 0.0% |
-| [Auto-blog](https://github.com/luisroquette/autoblog-template) | 3 | 1 | 39 | 27 | github.com (1 unique) | 0 | 0.0% |
+| [My_Blog_Makes_Neil_Proud](https://github.com/luisroquette/autoblog-template) | 3 | 1 | 39 | 27 | github.com (1 unique) | 0 | 0.0% |
 | [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) | 3 | 1 | 5 | 5 | github.com (1 unique) | 0 | 0.0% |
 
 ### Snapshot history

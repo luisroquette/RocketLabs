@@ -20,7 +20,7 @@ think, “this is the problem I am trying to solve”.
 |---|---|---|---|
 | NotchAgent | Will your agent run out of quota before it finishes? | [`panel-burn.png`](https://github.com/luisroquette/notchagent/blob/master/docs/img/panel-burn.png) | [NotchAgent](https://github.com/luisroquette/notchagent) |
 | Social Machine | Content should not live between spreadsheets and prompts. | [`social-machine-demo.mp4`](https://github.com/luisroquette/social-machine-for-all/blob/master/assets/social-machine-demo.mp4) | [Social Machine](https://github.com/luisroquette/social-machine-for-all) |
-| Auto-blog | How do you publish for SEO without handing your content to a platform? | [`pipeline-walkthrough.gif`](https://github.com/luisroquette/autoblog-template/blob/main/assets/pipeline-walkthrough.gif) | [Auto-blog](https://github.com/luisroquette/autoblog-template) |
+| My_Blog_Makes_Neil_Proud | How do you publish for SEO without handing your content to a platform? | [`pipeline-walkthrough.gif`](https://github.com/luisroquette/autoblog-template/blob/main/assets/pipeline-walkthrough.gif) | [My_Blog_Makes_Neil_Proud](https://github.com/luisroquette/autoblog-template) |
 | Carousel Story Engine | Why do AI carousels all look and sound the same? | [`before-after.png`](https://github.com/luisroquette/carousel-story-engine/blob/main/assets/before-after.png) | [Carousel Engine](https://github.com/luisroquette/carousel-story-engine) |
 
 ## 1. NotchAgent
@@ -74,13 +74,13 @@ percentages, local token counts and projections.
 
 **Follow-up:** move one topic from signal to approval using the repository demo.
 
-## 3. Auto-blog Template
+## 3. My_Blog_Makes_Neil_Proud
 
 **Primary post**
 
 > How do you publish for SEO without handing your content to a platform?
 >
-> Auto-blog Template keeps the blog in your Next.js application and the data in
+> My_Blog_Makes_Neil_Proud keeps the blog in your Next.js application and the data in
 > your Supabase project. Brand, audience, tone, keywords, internal links and CTA
 > live in one editable profile.
 >

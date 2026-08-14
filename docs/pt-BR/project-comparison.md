@@ -9,7 +9,7 @@ substitui a leitura dos requisitos e da licença de cada projeto.
 |---|---|---|---|---|
 | [NotchAgent](https://github.com/luisroquette/notchagent) | acompanhar quotas e ritmo de consumo de agentes no Mac | monitor local no notch/menu bar | aplicativo macOS | código público; consulte a licença |
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | operar conteúdo do sinal à revisão e publicação | operação editorial self-hosted | aplicação Next.js + Supabase | MIT |
-| [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | transformar pautas em artigos SEO no seu domínio | pipeline de publicação replicável | template Next.js + Supabase | MIT |
+| [My_Blog_Makes_Neil_Proud](https://github.com/luisroquette/autoblog-template) | transformar pautas em artigos SEO no seu domínio | pipeline de publicação replicável | template Next.js + Supabase | MIT |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | criar carrosséis com pesquisa e QA editorial | skill e workflow de conteúdo | skill portátil | MIT |
 | [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | conectar agentes a notícias e dados brasileiros de IA | ferramentas e recursos via MCP | infraestrutura para agentes | MIT |
 | [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | estudar um portal de mobilidade elétrica | produto web em evolução | aplicação web | código público; consulte a licença |
@@ -19,14 +19,14 @@ substitui a leitura dos requisitos e da licença de cada projeto.
 
 - **Quero algo instalável agora no Mac:** NotchAgent.
 - **Quero uma operação completa de conteúdo:** Social Machine for All.
-- **Quero publicar artigos SEO:** Auto-blog Template.
+- **Quero publicar artigos SEO:** My_Blog_Makes_Neil_Proud.
 - **Quero um workflow editorial portátil:** Carousel Story Engine.
 - **Quero dados brasileiros de IA dentro de um agente:** SWEN.AI MCP Server.
 - **Quero estudar produtos web verticais:** GaussMob ou Coesa Auditoria.
 
-## Social Machine ou Auto-blog?
+## Social Machine ou My_Blog_Makes_Neil_Proud?
 
-| Pergunta | Social Machine | Auto-blog |
+| Pergunta | Social Machine | My_Blog_Makes_Neil_Proud |
 |---|---|---|
 | Escopo | operação multietapa de conteúdo | publicação de artigos SEO |
 | Melhor para | times com descoberta, criação e revisão | sites com pipeline editorial focado |

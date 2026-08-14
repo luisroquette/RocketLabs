@@ -9,7 +9,7 @@ reading each project's requirements and license.
 |---|---|---|---|---|
 | [NotchAgent](https://github.com/luisroquette/notchagent) | AI-agent quota and burn-rate visibility on Mac | local notch/menu-bar monitor | macOS app | public code; check its license |
 | [Social Machine for All](https://github.com/luisroquette/social-machine-for-all) | content operations from signal to review and publishing | self-hosted editorial operation | Next.js + Supabase app | MIT |
-| [Auto-blog Template](https://github.com/luisroquette/autoblog-template) | turning briefs into SEO articles on your domain | repeatable publishing pipeline | Next.js + Supabase template | MIT |
+| [My_Blog_Makes_Neil_Proud](https://github.com/luisroquette/autoblog-template) | turning briefs into SEO articles on your domain | repeatable publishing pipeline | Next.js + Supabase template | MIT |
 | [Carousel Story Engine](https://github.com/luisroquette/carousel-story-engine) | research-led carousels with editorial QA | content skill and workflow | portable skill | MIT |
 | [SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server) | Brazilian AI news and data inside agents | MCP tools and resources | agent infrastructure | MIT |
 | [GaussMob](https://github.com/luisroquette/gaussmob-nextjs) | studying an electric-mobility portal | evolving web product | web application | public code; check its license |
@@ -19,14 +19,14 @@ reading each project's requirements and license.
 
 - **I want something installable on Mac now:** NotchAgent.
 - **I need a full content operation:** Social Machine for All.
-- **I want to publish SEO articles:** Auto-blog Template.
+- **I want to publish SEO articles:** My_Blog_Makes_Neil_Proud.
 - **I need a portable editorial workflow:** Carousel Story Engine.
 - **I need Brazilian AI data inside an agent:** SWEN.AI MCP Server.
 - **I want to study vertical web products:** GaussMob or Coesa Auditoria.
 
-## Social Machine or Auto-blog?
+## Social Machine or My_Blog_Makes_Neil_Proud?
 
-| Question | Social Machine | Auto-blog |
+| Question | Social Machine | My_Blog_Makes_Neil_Proud |
 |---|---|---|
 | Scope | multi-stage content operations | SEO article publishing |
 | Best for | teams with discovery, creation and review | sites with a focused editorial pipeline |

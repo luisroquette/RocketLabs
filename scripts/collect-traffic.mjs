@@ -251,6 +251,21 @@ ${history}
   writeAtomic(dashboardPath, dashboard.replace(marker, generated));
 }
 
+/**
+ * Nomes configurados hoje que NÃO aparecem no snapshot — usado só pra validar cobertura, nunca
+ * pra checar a FORMA do dado (isso é validateSnapshotSchema, separado de propósito).
+ */
+export function missingRepositories(snapshotData, repositories) {
+  const names = new Set(snapshotData.repositories.map((repository) => repository.name));
+  return repositories
+    .map((repository) => repository.name)
+    .filter((name) => !names.has(name));
+}
+
+export function validateSnapshotSchema(data) {
+  return data.schemaVersion === 1 && Array.isArray(data.repositories);
+}
+
 function validateStoredMetrics(config) {
   const dashboard = readFileSync(dashboardPath, "utf8");
   if (
@@ -262,14 +277,23 @@ function validateStoredMetrics(config) {
 
   const snapshots = listSnapshots();
   for (const { file, data } of snapshots) {
-    if (data.schemaVersion !== 1 || !Array.isArray(data.repositories)) {
+    if (!validateSnapshotSchema(data)) {
       fail(`invalid snapshot schema: ${file}`);
     }
-    const names = new Set(data.repositories.map((repository) => repository.name));
-    for (const repository of config.repositories) {
-      if (!names.has(repository.name)) {
-        fail(`snapshot ${file} is missing ${repository.name}`);
-      }
+  }
+
+  // Cobertura ("todo repo configurado aparece no snapshot") só se aplica ao snapshot MAIS
+  // RECENTE — listSnapshots() ordena por nome de arquivo, que é a data (YYYY-MM-DD.json), então
+  // o último da lista é o mais novo. Snapshots antigos são registro histórico de um instante em
+  // que a lista de repos rastreados podia ser MENOR; exigir que TODOS contenham o repo que só
+  // acabou de entrar no config (ex.: memoryguard, adicionado depois do snapshot de 24/07) travava
+  // a validação inteira sem nenhum dado real ter sumido — achado 17/08/2026, ver
+  // collect-traffic.test.mjs.
+  const latest = snapshots.at(-1);
+  if (latest) {
+    const missing = missingRepositories(latest.data, config.repositories);
+    if (missing.length > 0) {
+      fail(`snapshot ${latest.file} is missing ${missing.join(", ")}`);
     }
   }
 
@@ -278,61 +302,70 @@ function validateStoredMetrics(config) {
   );
 }
 
-const config = loadConfig();
+// Só roda a coleta de verdade (chamadas reais à API do GitHub) quando o arquivo é EXECUTADO
+// diretamente (`node scripts/collect-traffic.mjs`), nunca quando é IMPORTADO — sem essa guarda,
+// qualquer import (ex.: collect-traffic.test.mjs importando missingRepositories) disparava a
+// coleta inteira como efeito colateral só de carregar o módulo. Achado 17/08/2026 ao escrever o
+// teste de missingRepositories/validateSnapshotSchema.
+const isMainModule = import.meta.url === `file://${process.argv[1]}`;
 
-if (validateOnly) {
-  validateStoredMetrics(config);
-  process.exit(0);
-}
+if (isMainModule) {
+  const config = loadConfig();
 
-const date = snapshotDate();
-const collectedAt = new Date().toISOString();
-const repositories = config.repositories.map(({ name, label }) => {
-  const base = `repos/${config.owner}/${name}`;
-  const metadata = ghApi(base);
-  const views = ghApi(`${base}/traffic/views?per=day`);
-  const clones = ghApi(`${base}/traffic/clones?per=day`);
-  const referrers = ghApi(`${base}/traffic/popular/referrers`);
-  const popularPaths = ghApi(`${base}/traffic/popular/paths`);
+  if (validateOnly) {
+    validateStoredMetrics(config);
+    process.exit(0);
+  }
 
-  return {
-    name,
-    label,
-    nameWithOwner: `${config.owner}/${name}`,
-    url: metadata.html_url,
-    stars: metadata.stargazers_count,
-    forks: metadata.forks_count,
-    views: {
-      count: views.count,
-      uniques: views.uniques,
-      daily: views.views
-    },
-    clones: {
-      count: clones.count,
-      uniques: clones.uniques,
-      daily: clones.clones
-    },
-    referrers,
-    popularPaths
+  const date = snapshotDate();
+  const collectedAt = new Date().toISOString();
+  const repositories = config.repositories.map(({ name, label }) => {
+    const base = `repos/${config.owner}/${name}`;
+    const metadata = ghApi(base);
+    const views = ghApi(`${base}/traffic/views?per=day`);
+    const clones = ghApi(`${base}/traffic/clones?per=day`);
+    const referrers = ghApi(`${base}/traffic/popular/referrers`);
+    const popularPaths = ghApi(`${base}/traffic/popular/paths`);
+
+    return {
+      name,
+      label,
+      nameWithOwner: `${config.owner}/${name}`,
+      url: metadata.html_url,
+      stars: metadata.stargazers_count,
+      forks: metadata.forks_count,
+      views: {
+        count: views.count,
+        uniques: views.uniques,
+        daily: views.views
+      },
+      clones: {
+        count: clones.count,
+        uniques: clones.uniques,
+        daily: clones.clones
+      },
+      referrers,
+      popularPaths
+    };
+  });
+  const snapshot = {
+    schemaVersion: 1,
+    date,
+    collectedAt,
+    timezone: "UTC",
+    windowDays: 14,
+    repositories
   };
-});
-const snapshot = {
-  schemaVersion: 1,
-  date,
-  collectedAt,
-  timezone: "UTC",
-  windowDays: 14,
-  repositories
-};
 
-mkdirSync(snapshotsDir, { recursive: true });
-const previousSnapshots = listSnapshots(date);
-writeAtomic(
-  path.join(snapshotsDir, `${date}.json`),
-  `${JSON.stringify(snapshot, null, 2)}\n`
-);
-mergeDaily(snapshot);
-updateDashboard(snapshot, previousSnapshots);
-validateStoredMetrics(config);
+  mkdirSync(snapshotsDir, { recursive: true });
+  const previousSnapshots = listSnapshots(date);
+  writeAtomic(
+    path.join(snapshotsDir, `${date}.json`),
+    `${JSON.stringify(snapshot, null, 2)}\n`
+  );
+  mergeDaily(snapshot);
+  updateDashboard(snapshot, previousSnapshots);
+  validateStoredMetrics(config);
 
-console.log(`Traffic snapshot saved for ${date}.`);
+  console.log(`Traffic snapshot saved for ${date}.`);
+}
